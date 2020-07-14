@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>device.ico</file>
+    <file>dut.ico</file>
+    <file>Exit.ico</file>
+    <file>me.ico</file>
+    <file>pause.ico</file>
+    <file>rep2.ico</file>
+    <file>seq.ico</file>
+    <file>start.ico</file>
+    <file>stop.ico</file>
+    <file>timg.jpg</file>
+  </qresource>
+</RCC>

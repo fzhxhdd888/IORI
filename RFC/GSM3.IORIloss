@@ -1,0 +1,22 @@
+<Loss>
+	<loss>
+		<Frequency>850</Frequency>
+		<Value>10.4</Value>
+	</loss>
+	<loss>
+		<Frequency>900</Frequency>
+		<Value>10.5</Value>
+	</loss>
+	<loss>
+		<Frequency>1800</Frequency>
+		<Value>10.6</Value>
+	</loss>
+	<loss>
+		<Frequency>1900</Frequency>
+		<Value>10.7</Value>
+	</loss>
+	<loss>
+		<Frequency>2100</Frequency>
+		<Value>10.9</Value>
+	</loss>
+</Loss>

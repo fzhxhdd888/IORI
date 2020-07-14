@@ -1,0 +1,1393 @@
+<seq>
+	<items condition="NTNV" enable="yes" index="0" name="GSMFCC NTNV PCS1900" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>PCS1900</Value>
+					<Type>1</Type>
+					<Range>GSM850,GSM900,DCS1800,PCS1900</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>GSM850 Channel</Name>
+					<Value>128,190,251</Value>
+					<Type>2</Type>
+					<Range>128 to 251</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>GSM900 Channel</Name>
+					<Value>975,37,124</Value>
+					<Type>2</Type>
+					<Range>975 to 1023,0 to 124</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DCS1800 Channel</Name>
+					<Value>512,698,885</Value>
+					<Type>2</Type>
+					<Range>512 to 885</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCS1900 Channel</Name>
+					<Value>512,661,810</Value>
+					<Type>2</Type>
+					<Range>512 to 810</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCL</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>0 to 19</Range>
+					<info>根据Band选择PCL。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>GSM</Value>
+					<Type>1</Type>
+					<Range>GSM,GPRS,EGPRS</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="1" name="GSMFCC NTNV PCS1900 GPRS" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>PCS1900</Value>
+					<Type>1</Type>
+					<Range>GSM850,GSM900,DCS1800,PCS1900</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>GSM850 Channel</Name>
+					<Value>128,190,251</Value>
+					<Type>2</Type>
+					<Range>128 to 251</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>GSM900 Channel</Name>
+					<Value>975,37,124</Value>
+					<Type>2</Type>
+					<Range>975 to 1023,0 to 124</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DCS1800 Channel</Name>
+					<Value>512,698,885</Value>
+					<Type>2</Type>
+					<Range>512 to 885</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCS1900 Channel</Name>
+					<Value>512,661,810</Value>
+					<Type>2</Type>
+					<Range>512 to 810</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCL</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>0 to 19</Range>
+					<info>根据Band选择PCL。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>GPRS</Value>
+					<Type>1</Type>
+					<Range>GSM,GPRS,EGPRS</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="2" name="GSMFCC NTNV PCS1900 EGPRS" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>PCS1900</Value>
+					<Type>1</Type>
+					<Range>GSM850,GSM900,DCS1800,PCS1900</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>GSM850 Channel</Name>
+					<Value>128,190,251</Value>
+					<Type>2</Type>
+					<Range>128 to 251</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>GSM900 Channel</Name>
+					<Value>975,37,124</Value>
+					<Type>2</Type>
+					<Range>975 to 1023,0 to 124</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DCS1800 Channel</Name>
+					<Value>512,698,885</Value>
+					<Type>2</Type>
+					<Range>512 to 885</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCS1900 Channel</Name>
+					<Value>512,661,810</Value>
+					<Type>2</Type>
+					<Range>512 to 810</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCL</Name>
+					<Value>2</Value>
+					<Type>2</Type>
+					<Range>0 to 19</Range>
+					<info>根据Band选择PCL。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>EGPRS</Value>
+					<Type>1</Type>
+					<Range>GSM,GPRS,EGPRS</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="3" name="WCDMAFCC NTNV Band 2" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>Band II</Value>
+					<Type>1</Type>
+					<Range>Band II,Band IV,Band V</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>Band II Channel</Name>
+					<Value>9262,9400,9538</Value>
+					<Type>2</Type>
+					<Range>9262 to 9538</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>Band IV Channel</Name>
+					<Value>1312,1413,1513</Value>
+					<Type>2</Type>
+					<Range>1312 to 1513</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>Band V Channel</Name>
+					<Value>4132,4183,4233</Value>
+					<Type>2</Type>
+					<Range>4132 to 4233</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>WCDMA</Value>
+					<Type>1</Type>
+					<Range>WCDMA,HSDPA,HSUPA</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="4" name="WCDMAFCC NTNV Band 4" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>Band IV</Value>
+					<Type>1</Type>
+					<Range>Band II,Band IV,Band V</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>Band II Channel</Name>
+					<Value>9262,9400,9538</Value>
+					<Type>2</Type>
+					<Range>9262 to 9538</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>Band IV Channel</Name>
+					<Value>1312,1413,1513</Value>
+					<Type>2</Type>
+					<Range>1312 to 1513</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>Band V Channel</Name>
+					<Value>4132,4183,4233</Value>
+					<Type>2</Type>
+					<Range>4132 to 4233</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>WCDMA</Value>
+					<Type>1</Type>
+					<Range>WCDMA,HSDPA,HSUPA</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.13</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="5" name="LTEFCC NTNV Band2 1.4MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>1.4MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="6" name="LTEFCC NTNV Band2 3MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>3MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="7" name="LTEFCC NTNV Band2 5MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>5MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="8" name="LTEFCC NTNV Band2 10MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>10MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="9" name="LTEFCC NTNV Band2 15MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>15MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="10" name="LTEFCC NTNV Band2 20MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>20MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.68</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="11" name="LTEFCC NTNV Band4 1.4MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 4</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>1.4MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.13</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="12" name="LTEFCC NTNV Band4 3MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 4</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>3MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.13</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="13" name="LTEFCC NTNV Band4 5MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 4</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>5MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.13</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="14" name="LTEFCC NTNV Band4 10MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 4</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>10MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.13</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="15" name="LTEFCC NTNV Band4 15MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 4</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>15MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.13</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="16" name="LTEFCC NTNV Band4 20MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 4</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>20MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>-0.13</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>FDD-LTE 5/26 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>38.45</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 5/26 ERP Limit, Default value: LOW:None, HIGH:38.45dBm(7W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 12/17 ERP Limit(dBm)</Name>
+					<low>None</low>
+					<high>34.77</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 12/17 ERP Limit, Default value: LOW:None, HIGH:34.77dBm(3W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>33</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 2/7/25 TDD-LTE 41 EIRP Limit, Default value: LOW:None, HIGH:33dBm(2W)</info>
+				</limit>
+				<limit>
+					<Name>FDD-LTE 4 EIRP Limit(dBm)</Name>
+					<low>None</low>
+					<high>30</high>
+					<Type>2</Type>
+					<Range />
+					<info>FDD-LTE 4 EIRP Limit, Default value: LOW:None, HIGH:30dBm(1W)</info>
+				</limit>
+			</limits>
+		</item>
+	</items>
+</seq>

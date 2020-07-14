@@ -1,0 +1,21 @@
+<xml>
+	<DUTCONFIG>
+		<DUTMANUFACTURER />
+		<DUTSN />
+		<DUTHWREV />
+		<DUTSWREV />
+		<DUTIMEI />
+		<MAXREGTIME />
+		<AUTOMODE>1</AUTOMODE>
+		<COMPORT />
+		<COMPORTQRCT />
+		<NSSW>QRCT</NSSW>
+		<HV />
+		<NV />
+		<LV />
+		<MAXC />
+		<HT />
+		<NT />
+		<LT />
+	</DUTCONFIG>
+</xml>

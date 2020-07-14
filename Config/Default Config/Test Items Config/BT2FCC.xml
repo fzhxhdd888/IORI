@@ -1,0 +1,154 @@
+<xml>
+	<TestItems>
+			<item  Name="Init seting" index="0">
+				<parms>
+					<Parm>
+						<Name>Channel</Name>
+						<Value>0,39,78</Value>
+						<Type>2</Type>
+						<Range>0 to 78</Range>
+						<info />
+					</Parm>
+				</parms>
+				<limits>
+				</limits>
+			</item>	
+			<item  Name="20dB bandwidth" index="1">
+				<parms>
+					<Parm>
+						<Name>Packet Type</Name>
+						<Value>DH5/2-DH5/3-DH5</Value>
+						<Type>1</Type>
+						<Range>DH5,2-DH5,3-DH5,DH5/2-DH5/3-DH5</Range>
+						<info />
+					</Parm>						
+				</parms>
+				<limits>
+					<limit>
+							<Name>Limit</Name>					
+							<low>None</low>
+							<high>None</high>
+							<Type>2</Type>
+							<Range></Range>
+							<info />				
+					</limit>
+				</limits>
+			</item>
+			<item  Name="99% bandwidth" index="2">
+				<parms>
+					<Parm>
+						<Name>Packet Type</Name>
+						<Value>DH5/2-DH5/3-DH5</Value>
+						<Type>1</Type>
+						<Range>DH5,2-DH5,3-DH5,DH5/2-DH5/3-DH5</Range>
+						<info />
+					</Parm>						
+				</parms>
+				<limits>
+					<limit>
+							<Name>Limit</Name>					
+							<low>None</low>
+							<high>None</high>
+							<Type>2</Type>
+							<Range></Range>
+							<info />				
+					</limit>
+				</limits>
+			</item>
+			<item  Name="Peak Output Power" index="3">
+				<parms>
+					<Parm>
+						<Name>Packet Type</Name>
+						<Value>DH5/2-DH5/3-DH5</Value>
+						<Type>1</Type>
+						<Range>DH5,2-DH5,3-DH5,DH5/2-DH5/3-DH5</Range>
+						<info />
+					</Parm>						
+				</parms>
+				<limits>
+					<limit>
+							<Name>Limit</Name>					
+							<low>None</low>
+							<high>21</high>
+							<Type>2</Type>
+							<Range></Range>
+							<info />				
+					</limit>
+				</limits>
+			</item>
+			<item  Name="Number of Channel" index="4">
+				<parms>	
+				</parms>
+				<limits>
+					<limit>
+							<Name>Limit</Name>					
+							<low>15</low>
+							<high>None</high>
+							<Type>2</Type>
+							<Range></Range>
+							<info />				
+					</limit>
+				</limits>
+			</item>
+			<item  Name="Hopping Channel Separation" index="5">
+				<parms>	
+					<Parm>
+						<Name>Packet Type</Name>
+						<Value>DH5/2-DH5/3-DH5</Value>
+						<Type>1</Type>
+						<Range>DH5,2-DH5,3-DH5,DH5/2-DH5/3-DH5</Range>
+						<info />
+					</Parm>	
+				</parms>
+				<limits>
+				</limits>
+			</item>
+			<item  Name="Dwell Time" index="6">
+				<parms>
+					<Parm>
+						<Name>Packet Type</Name>
+						<Value>DH5/2-DH5/3-DH5</Value>
+						<Type>1</Type>
+						<Range>DH5,2-DH5,3-DH5,DH5/2-DH5/3-DH5</Range>
+						<info />
+					</Parm>				
+				</parms>
+				<limits>
+					<limit>
+							<Name>Limit</Name>					
+							<low>None</low>
+							<high>400</high>
+							<Type>2</Type>
+							<Range></Range>
+							<info />				
+					</limit>
+				</limits>
+			</item>
+			<item  Name="Conducted Band Edges" index="7">
+				<parms>
+					<Parm>
+						<Name>Packet Type</Name>
+						<Value>DH5/2-DH5/3-DH5</Value>
+						<Type>1</Type>
+						<Range>DH5,2-DH5,3-DH5,DH5/2-DH5/3-DH5</Range>
+						<info />
+					</Parm>					
+				</parms>
+				<limits>
+				</limits>
+			</item>
+			<item  Name="Conducted Spurious Emissions" index="8">
+				<parms>	
+					<Parm>
+						<Name>Packet Type</Name>
+						<Value>DH5/2-DH5/3-DH5</Value>
+						<Type>1</Type>
+						<Range>DH5,2-DH5,3-DH5,DH5/2-DH5/3-DH5</Range>
+						<info />
+					</Parm>		
+				</parms>
+				<limits>
+				</limits>
+			</item>
+	</TestItems>
+</xml>

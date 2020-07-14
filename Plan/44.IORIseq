@@ -1,0 +1,65 @@
+<seq>
+	<items condition="NTNV" enable="yes" index="0" name="WLAN_B NTNV " tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>11</Value>
+					<Type>1</Type>
+					<Range>1,2,5.5,11</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel</Name>
+					<Value>1,7,13</Value>
+					<Type>0</Type>
+					<Range>1 to 13</Range>
+					<info />
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="18.4.8.3_Adjacent channel rejection" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Packet length</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>如果是N4010，包的数量必须跟波形文件的数量一致，否则结果将不准确。</info>
+				</Parm>
+				<Parm>
+					<Name>BS Sensitivity LEVEL(dBm)</Name>
+					<Value>-76</Value>
+					<Type>12</Type>
+					<Range>-100 to 0</Range>
+					<info>测试1/2M时需要设置为-80dBm,5.5/11M时需要设置为-76dBm。</info>
+				</Parm>
+				<Parm>
+					<Name>adjacent channel offset(MHz)</Name>
+					<Value>25</Value>
+					<Type>10</Type>
+					<Range>25 to 1000</Range>
+					<info>测试1/2M时需要设置为30MHz,5.5/11M时需要设置为25MHz。</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>Adjacent channel rejection(dB) PER%</Name>
+					<low>8</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range>0 to 10</Range>
+					<info />
+				</limit>
+			</limits>
+		</item>
+	</items>
+</seq>

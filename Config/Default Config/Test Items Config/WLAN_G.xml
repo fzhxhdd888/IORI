@@ -1,0 +1,131 @@
+﻿<xml>
+<TestItems>
+        <item  Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info></info>
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>54</Value>
+					<Type>1</Type>
+					<Range>6,9,12,18,24,36,48,54</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel</Name>
+					<Value>1,7,13</Value>
+					<Type>0</Type>
+					<Range>1 to 13</Range>
+					<info />
+				</Parm>
+			</parms>
+			<limits>
+			</limits>
+        </item>	
+        
+		<item  Name="17.3.10.2_Adjacent channel rejection" index="9">
+			<parms>	
+                <Parm>
+					<Name>Packet length</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>如果是N4010，包的数量必须跟波形文件的数量一致，否则结果将不准确。</info>
+				</Parm>
+				
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>当测试模式选择Search时才起作用。</info>
+				</Parm>		
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>当测试模式选择Search时才起作用，设置当前搜索起始值为上一信道的结果。</info>
+				</Parm>	
+	            <Parm>
+					<Name>adjacent channel offset(MHz)</Name>
+					<Value>25</Value>
+					<Type>10</Type>
+					<Range>25 to 50</Range>
+					<info>设置干扰信号与载波的频偏值。（默认为25）</info>
+				</Parm>	
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% 6Mbps (dBm)</Name>					
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 9Mbps (dBm)</Name>					
+					<low>15</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 12Mbps (dBm)</Name>					
+					<low>13</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 18Mbps (dBm)</Name>					
+					<low>11</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 24Mbps (dBm)</Name>					
+					<low>8</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 36Mbps (dBm)</Name>					
+					<low>4</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 48Mbps (dBm)</Name>					
+					<low>0</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 54Mbps (dBm)</Name>					
+					<low>-1</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+			</limits>
+        </item>	
+</TestItems>
+</xml>

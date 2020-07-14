@@ -1,0 +1,199 @@
+<xml>
+<TestItems>
+        <item  Name="Init seting" index="0">
+			<parms>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info></info>
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>54</Value>
+					<Type>1</Type>
+					<Range>6,9,12,18,24,36,48,54</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel</Name>
+					<Value>36,112,165</Value>
+					<Type>0</Type>
+					<Range>36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,149,153,157,161,165</Range>
+					<info />
+				</Parm>
+			</parms>
+			<limits>
+			</limits>
+        </item>	 
+		<item  Name="17.3.10.3_Adjacent channel rejection" index="9">
+			<parms>	
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>0</Type>
+					<Range>0 to 20</Range>
+					<info>当测试模式选择Search时才起作用。</info>
+				</Parm>		
+	            <Parm>
+					<Name>adjacent channel offset(MHz)</Name>
+					<Value>20</Value>
+					<Type>10</Type>
+					<Range>20 to 50</Range>
+					<info>设置干扰信号与载波的频偏值。（默认为25）</info>
+				</Parm>			
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% 6Mbps (dBm)</Name>					
+					<low>16</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 9Mbps (dBm)</Name>					
+					<low>15</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 12Mbps (dBm)</Name>					
+					<low>13</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 18Mbps (dBm)</Name>					
+					<low>11</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 24Mbps (dBm)</Name>					
+					<low>8</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 36Mbps (dBm)</Name>					
+					<low>4</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 48Mbps (dBm)</Name>					
+					<low>0</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 54Mbps (dBm)</Name>					
+					<low>-1</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+			</limits>
+        </item>	
+		<item  Name="17.3.10.4_Nonadjacent channel rejection" index="10">
+			<parms>	
+
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>0</Type>
+					<Range>0 to 20</Range>
+					<info>当测试模式选择Search时才起作用。</info>
+				</Parm>	
+	            <Parm>
+					<Name>Nonadjacent channel offset(MHz)</Name>
+					<Value>40</Value>
+					<Type>0</Type>
+					<Range>35 to 100</Range>
+					<info>设置干扰信号与载波的频偏值。（默认为35）</info>
+				</Parm>	
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% 6Mbps (dBm)</Name>
+					<low>32</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 9Mbps (dBm)</Name>					
+					<low>31</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 12Mbps (dBm)</Name>					
+					<low>29</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 18Mbps (dBm)</Name>					
+					<low>27</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 24Mbps (dBm)</Name>					
+					<low>24</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 36Mbps (dBm)</Name>					
+					<low>20</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 48Mbps (dBm)</Name>				
+					<low>16</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% 54Mbps (dBm)</Name>					
+					<low>15</low>
+					<high>None</high>
+					<Type>0</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+			</limits>
+        </item>    
+</TestItems>
+</xml>

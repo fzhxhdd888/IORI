@@ -1,0 +1,1874 @@
+<seq>
+	<items condition="NTNV" enable="yes" index="0" name="WLAN_AC NTNV mcs0_VHT20" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>MCS0</Value>
+					<Type>1</Type>
+					<Range>MCS0,MCS1,MCS2,MCS3,MCS4,MCS5,MCS6,MCS7,MCS8,MCS9</Range>
+					<info>HT20̵¼þûӐMCS9¡£</info>
+				</Parm>
+				<Parm>
+					<Name>Guard Interval</Name>
+					<Value>NORMAL</Value>
+					<Type>1</Type>
+					<Range>NORMAL,SHORT</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel Bonding</Name>
+					<Value>VHT20</Value>
+					<Type>1</Type>
+					<Range>VHT20,VHT40,VHT80</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>VHT20 Channel</Name>
+					<Value>36,64,165</Value>
+					<Type>13</Type>
+					<Range>36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,149,153,157,161,165</Range>
+					<info>VHT20ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT40 Channel</Name>
+					<Value>38,62,159</Value>
+					<Type>13</Type>
+					<Range>38,42,46,50,54,58,62,102,106,110,114,118,122,126,130,134,138,142,151,155,159,163</Range>
+					<info>VHT40ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT80 Channel</Name>
+					<Value>42,58,155</Value>
+					<Type>13</Type>
+					<Range>42,46,50,54,58,102,106,110,114,118,122,126,130,134,138,142,151,155,159</Range>
+					<info>VHT80ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT160 Channel</Name>
+					<Value>50,110,151</Value>
+					<Type>13</Type>
+					<Range>50,54,58,102,106,110,114,118,122,126,130,134,138,142,151</Range>
+					<info>VHT160ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Test Number</Name>
+					<Value>5</Value>
+					<Type>11</Type>
+					<Range>0 to 1000</Range>
+					<info>ͳ¼ƴΊý</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger Mode</Name>
+					<Value>IFPOWER</Value>
+					<Type>1</Type>
+					<Range>IFPOWER,FreeRun,RXFrameTrigger</Range>
+					<info>´¥·¢ģʽ£¬ĬȏΪIFPOWER，触发模式，非信令选择IFPOWER，信令选择RXFrameTrigger</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger IF Min GAP(us)</Name>
+					<Value>10</Value>
+					<Type>11</Type>
+					<Range>5 to 10000</Range>
+					<info>IFPOWER参数，当触发模式选择IFPOWER才起作用，默认为50</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="21.3.18.2_Adjacent channel rejection" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>13</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>11</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>8</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>4</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>0</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>-1</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>-2</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS8 (dB)</Name>
+					<low>-7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS9 (dB)</Name>
+					<low>-9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+		<item Name="21.3.18.3_NO Adjacent channel rejection" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>32</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>29</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>27</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>24</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>20</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>15</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>14</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="1" name="WLAN_AC NTNV mcs8_VHT20" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>MCS8</Value>
+					<Type>1</Type>
+					<Range>MCS0,MCS1,MCS2,MCS3,MCS4,MCS5,MCS6,MCS7,MCS8,MCS9</Range>
+					<info>HT20̵¼þûӐMCS9¡£</info>
+				</Parm>
+				<Parm>
+					<Name>Guard Interval</Name>
+					<Value>NORMAL</Value>
+					<Type>1</Type>
+					<Range>NORMAL,SHORT</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel Bonding</Name>
+					<Value>VHT20</Value>
+					<Type>1</Type>
+					<Range>VHT20,VHT40,VHT80</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>VHT20 Channel</Name>
+					<Value>36,64,165</Value>
+					<Type>13</Type>
+					<Range>36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,149,153,157,161,165</Range>
+					<info>VHT20ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT40 Channel</Name>
+					<Value>38,62,159</Value>
+					<Type>13</Type>
+					<Range>38,42,46,50,54,58,62,102,106,110,114,118,122,126,130,134,138,142,151,155,159,163</Range>
+					<info>VHT40ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT80 Channel</Name>
+					<Value>42,58,155</Value>
+					<Type>13</Type>
+					<Range>42,46,50,54,58,102,106,110,114,118,122,126,130,134,138,142,151,155,159</Range>
+					<info>VHT80ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT160 Channel</Name>
+					<Value>50,110,151</Value>
+					<Type>13</Type>
+					<Range>50,54,58,102,106,110,114,118,122,126,130,134,138,142,151</Range>
+					<info>VHT160ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Test Number</Name>
+					<Value>5</Value>
+					<Type>11</Type>
+					<Range>0 to 1000</Range>
+					<info>ͳ¼ƴΊý</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger Mode</Name>
+					<Value>IFPOWER</Value>
+					<Type>1</Type>
+					<Range>IFPOWER,FreeRun,RXFrameTrigger</Range>
+					<info>´¥·¢ģʽ£¬ĬȏΪIFPOWER，触发模式，非信令选择IFPOWER，信令选择RXFrameTrigger</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger IF Min GAP(us)</Name>
+					<Value>10</Value>
+					<Type>11</Type>
+					<Range>5 to 10000</Range>
+					<info>IFPOWER参数，当触发模式选择IFPOWER才起作用，默认为50</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="21.3.18.2_Adjacent channel rejection" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>13</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>11</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>8</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>4</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>0</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>-1</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>-2</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS8 (dB)</Name>
+					<low>-7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS9 (dB)</Name>
+					<low>-9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+		<item Name="21.3.18.3_NO Adjacent channel rejection" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>32</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>29</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>27</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>24</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>20</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>15</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>14</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="2" name="WLAN_AC NTNV mcs0_VHT40" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>MCS0</Value>
+					<Type>1</Type>
+					<Range>MCS0,MCS1,MCS2,MCS3,MCS4,MCS5,MCS6,MCS7,MCS8,MCS9</Range>
+					<info>HT20̵¼þûӐMCS9¡£</info>
+				</Parm>
+				<Parm>
+					<Name>Guard Interval</Name>
+					<Value>NORMAL</Value>
+					<Type>1</Type>
+					<Range>NORMAL,SHORT</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel Bonding</Name>
+					<Value>VHT40</Value>
+					<Type>1</Type>
+					<Range>VHT20,VHT40,VHT80</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>VHT20 Channel</Name>
+					<Value>36,64,165</Value>
+					<Type>13</Type>
+					<Range>36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,149,153,157,161,165</Range>
+					<info>VHT20ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT40 Channel</Name>
+					<Value>38,62,159</Value>
+					<Type>13</Type>
+					<Range>38,42,46,50,54,58,62,102,106,110,114,118,122,126,130,134,138,142,151,155,159,163</Range>
+					<info>VHT40ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT80 Channel</Name>
+					<Value>42,58,155</Value>
+					<Type>13</Type>
+					<Range>42,46,50,54,58,102,106,110,114,118,122,126,130,134,138,142,151,155,159</Range>
+					<info>VHT80ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT160 Channel</Name>
+					<Value>50,110,151</Value>
+					<Type>13</Type>
+					<Range>50,54,58,102,106,110,114,118,122,126,130,134,138,142,151</Range>
+					<info>VHT160ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Test Number</Name>
+					<Value>5</Value>
+					<Type>11</Type>
+					<Range>0 to 1000</Range>
+					<info>ͳ¼ƴΊý</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger Mode</Name>
+					<Value>IFPOWER</Value>
+					<Type>1</Type>
+					<Range>IFPOWER,FreeRun,RXFrameTrigger</Range>
+					<info>´¥·¢ģʽ£¬ĬȏΪIFPOWER，触发模式，非信令选择IFPOWER，信令选择RXFrameTrigger</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger IF Min GAP(us)</Name>
+					<Value>10</Value>
+					<Type>11</Type>
+					<Range>5 to 10000</Range>
+					<info>IFPOWER参数，当触发模式选择IFPOWER才起作用，默认为50</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="21.3.18.2_Adjacent channel rejection" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>13</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>11</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>8</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>4</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>0</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>-1</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>-2</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS8 (dB)</Name>
+					<low>-7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS9 (dB)</Name>
+					<low>-9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+		<item Name="21.3.18.3_NO Adjacent channel rejection" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>32</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>29</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>27</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>24</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>20</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>15</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>14</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="3" name="WLAN_AC NTNV mcs9_VHT40" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>MCS9</Value>
+					<Type>1</Type>
+					<Range>MCS0,MCS1,MCS2,MCS3,MCS4,MCS5,MCS6,MCS7,MCS8,MCS9</Range>
+					<info>HT20̵¼þûӐMCS9¡£</info>
+				</Parm>
+				<Parm>
+					<Name>Guard Interval</Name>
+					<Value>NORMAL</Value>
+					<Type>1</Type>
+					<Range>NORMAL,SHORT</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel Bonding</Name>
+					<Value>VHT40</Value>
+					<Type>1</Type>
+					<Range>VHT20,VHT40,VHT80</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>VHT20 Channel</Name>
+					<Value>36,64,165</Value>
+					<Type>13</Type>
+					<Range>36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,149,153,157,161,165</Range>
+					<info>VHT20ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT40 Channel</Name>
+					<Value>38,62,159</Value>
+					<Type>13</Type>
+					<Range>38,42,46,50,54,58,62,102,106,110,114,118,122,126,130,134,138,142,151,155,159,163</Range>
+					<info>VHT40ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT80 Channel</Name>
+					<Value>42,58,155</Value>
+					<Type>13</Type>
+					<Range>42,46,50,54,58,102,106,110,114,118,122,126,130,134,138,142,151,155,159</Range>
+					<info>VHT80ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT160 Channel</Name>
+					<Value>50,110,151</Value>
+					<Type>13</Type>
+					<Range>50,54,58,102,106,110,114,118,122,126,130,134,138,142,151</Range>
+					<info>VHT160ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Test Number</Name>
+					<Value>5</Value>
+					<Type>11</Type>
+					<Range>0 to 1000</Range>
+					<info>ͳ¼ƴΊý</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger Mode</Name>
+					<Value>IFPOWER</Value>
+					<Type>1</Type>
+					<Range>IFPOWER,FreeRun,RXFrameTrigger</Range>
+					<info>´¥·¢ģʽ£¬ĬȏΪIFPOWER，触发模式，非信令选择IFPOWER，信令选择RXFrameTrigger</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger IF Min GAP(us)</Name>
+					<Value>10</Value>
+					<Type>11</Type>
+					<Range>5 to 10000</Range>
+					<info>IFPOWER参数，当触发模式选择IFPOWER才起作用，默认为50</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="21.3.18.2_Adjacent channel rejection" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>13</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>11</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>8</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>4</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>0</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>-1</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>-2</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS8 (dB)</Name>
+					<low>-7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS9 (dB)</Name>
+					<low>-9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+		<item Name="21.3.18.3_NO Adjacent channel rejection" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>32</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>29</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>27</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>24</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>20</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>15</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>14</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="4" name="WLAN_AC NTNV mcs0_VHT80" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>MCS0</Value>
+					<Type>1</Type>
+					<Range>MCS0,MCS1,MCS2,MCS3,MCS4,MCS5,MCS6,MCS7,MCS8,MCS9</Range>
+					<info>HT20̵¼þûӐMCS9¡£</info>
+				</Parm>
+				<Parm>
+					<Name>Guard Interval</Name>
+					<Value>NORMAL</Value>
+					<Type>1</Type>
+					<Range>NORMAL,SHORT</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel Bonding</Name>
+					<Value>VHT80</Value>
+					<Type>1</Type>
+					<Range>VHT20,VHT40,VHT80</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>VHT20 Channel</Name>
+					<Value>36,64,165</Value>
+					<Type>13</Type>
+					<Range>36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,149,153,157,161,165</Range>
+					<info>VHT20ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT40 Channel</Name>
+					<Value>38,62,159</Value>
+					<Type>13</Type>
+					<Range>38,42,46,50,54,58,62,102,106,110,114,118,122,126,130,134,138,142,151,155,159,163</Range>
+					<info>VHT40ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT80 Channel</Name>
+					<Value>42,58,155</Value>
+					<Type>13</Type>
+					<Range>42,46,50,54,58,102,106,110,114,118,122,126,130,134,138,142,151,155,159</Range>
+					<info>VHT80ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT160 Channel</Name>
+					<Value>50,110,151</Value>
+					<Type>13</Type>
+					<Range>50,54,58,102,106,110,114,118,122,126,130,134,138,142,151</Range>
+					<info>VHT160ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Test Number</Name>
+					<Value>5</Value>
+					<Type>11</Type>
+					<Range>0 to 1000</Range>
+					<info>ͳ¼ƴΊý</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger Mode</Name>
+					<Value>IFPOWER</Value>
+					<Type>1</Type>
+					<Range>IFPOWER,FreeRun,RXFrameTrigger</Range>
+					<info>´¥·¢ģʽ£¬ĬȏΪIFPOWER，触发模式，非信令选择IFPOWER，信令选择RXFrameTrigger</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger IF Min GAP(us)</Name>
+					<Value>10</Value>
+					<Type>11</Type>
+					<Range>5 to 10000</Range>
+					<info>IFPOWER参数，当触发模式选择IFPOWER才起作用，默认为50</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="21.3.18.2_Adjacent channel rejection" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>13</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>11</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>8</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>4</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>0</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>-1</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>-2</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS8 (dB)</Name>
+					<low>-7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS9 (dB)</Name>
+					<low>-9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+		<item Name="21.3.18.3_NO Adjacent channel rejection" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>32</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>29</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>27</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>24</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>20</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>15</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>14</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="5" name="WLAN_AC NTNV mcs9_VHT80" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>MCS9</Value>
+					<Type>1</Type>
+					<Range>MCS0,MCS1,MCS2,MCS3,MCS4,MCS5,MCS6,MCS7,MCS8,MCS9</Range>
+					<info>HT20̵¼þûӐMCS9¡£</info>
+				</Parm>
+				<Parm>
+					<Name>Guard Interval</Name>
+					<Value>NORMAL</Value>
+					<Type>1</Type>
+					<Range>NORMAL,SHORT</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel Bonding</Name>
+					<Value>VHT80</Value>
+					<Type>1</Type>
+					<Range>VHT20,VHT40,VHT80</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>VHT20 Channel</Name>
+					<Value>36,64,165</Value>
+					<Type>13</Type>
+					<Range>36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,149,153,157,161,165</Range>
+					<info>VHT20ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT40 Channel</Name>
+					<Value>38,62,159</Value>
+					<Type>13</Type>
+					<Range>38,42,46,50,54,58,62,102,106,110,114,118,122,126,130,134,138,142,151,155,159,163</Range>
+					<info>VHT40ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT80 Channel</Name>
+					<Value>42,58,155</Value>
+					<Type>13</Type>
+					<Range>42,46,50,54,58,102,106,110,114,118,122,126,130,134,138,142,151,155,159</Range>
+					<info>VHT80ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>VHT160 Channel</Name>
+					<Value>50,110,151</Value>
+					<Type>13</Type>
+					<Range>50,54,58,102,106,110,114,118,122,126,130,134,138,142,151</Range>
+					<info>VHT160ς²ŉúЧ¡£</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Test Number</Name>
+					<Value>5</Value>
+					<Type>11</Type>
+					<Range>0 to 1000</Range>
+					<info>ͳ¼ƴΊý</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger Mode</Name>
+					<Value>IFPOWER</Value>
+					<Type>1</Type>
+					<Range>IFPOWER,FreeRun,RXFrameTrigger</Range>
+					<info>´¥·¢ģʽ£¬ĬȏΪIFPOWER，触发模式，非信令选择IFPOWER，信令选择RXFrameTrigger</info>
+				</Parm>
+				<Parm>
+					<Name>CMW500 Triger IF Min GAP(us)</Name>
+					<Value>10</Value>
+					<Type>11</Type>
+					<Range>5 to 10000</Range>
+					<info>IFPOWER参数，当触发模式选择IFPOWER才起作用，默认为50</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="21.3.18.2_Adjacent channel rejection" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>13</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>11</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>8</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>4</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>0</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>-1</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>-2</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS8 (dB)</Name>
+					<low>-7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS9 (dB)</Name>
+					<low>-9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+		<item Name="21.3.18.3_NO Adjacent channel rejection" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>Packet Count</Name>
+					<Value>1000</Value>
+					<Type>10</Type>
+					<Range>1 to 100000</Range>
+					<info>·¢ˍµİüʽÁ¿</info>
+				</Parm>
+				<Parm>
+					<Name>Test Mode</Name>
+					<Value>Fix</Value>
+					<Type>1</Type>
+					<Range>Fix</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓á£</info>
+				</Parm>
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>µ±²⊔ģʽѡԱSearchʱ²ņ𗷓ã¬ɨփµ±ǰˑ˷ưʼֵΪɏһЅµÀµĽṻ¡£</info>
+				</Parm>
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>32</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>
+					<low>29</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>
+					<low>27</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>
+					<low>24</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>
+					<low>20</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>15</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>14</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>
+					<low>9</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>
+					<low>7</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range />
+					<info />
+				</limit>
+			</limits>
+		</item>
+	</items>
+</seq>

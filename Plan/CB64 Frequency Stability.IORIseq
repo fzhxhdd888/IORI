@@ -1,0 +1,403 @@
+<seq>
+	<items condition="NTNV" enable="yes" index="0" name="GSMFCC NTNV PCS1900" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>PCS1900</Value>
+					<Type>1</Type>
+					<Range>GSM850,GSM900,DCS1800,PCS1900</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>GSM850 Channel</Name>
+					<Value>128,190,251</Value>
+					<Type>2</Type>
+					<Range>128 to 251</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>GSM900 Channel</Name>
+					<Value>975,37,124</Value>
+					<Type>2</Type>
+					<Range>975 to 1023,0 to 124</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DCS1800 Channel</Name>
+					<Value>512,698,885</Value>
+					<Type>2</Type>
+					<Range>512 to 885</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCS1900 Channel</Name>
+					<Value>512,661,810</Value>
+					<Type>2</Type>
+					<Range>512 to 810</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCL</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>0 to 19</Range>
+					<info>根据Band选择PCL。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>GSM</Value>
+					<Type>1</Type>
+					<Range>GSM,GPRS,EGPRS</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Frequency stability" enable="yes" index="1">
+			<parms />
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="1" name="GSMFCC NTNV PCS1900 GPRS" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>PCS1900</Value>
+					<Type>1</Type>
+					<Range>GSM850,GSM900,DCS1800,PCS1900</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>GSM850 Channel</Name>
+					<Value>128,190,251</Value>
+					<Type>2</Type>
+					<Range>128 to 251</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>GSM900 Channel</Name>
+					<Value>975,37,124</Value>
+					<Type>2</Type>
+					<Range>975 to 1023,0 to 124</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DCS1800 Channel</Name>
+					<Value>512,698,885</Value>
+					<Type>2</Type>
+					<Range>512 to 885</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCS1900 Channel</Name>
+					<Value>512,661,810</Value>
+					<Type>2</Type>
+					<Range>512 to 810</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCL</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>0 to 19</Range>
+					<info>根据Band选择PCL。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>GPRS</Value>
+					<Type>1</Type>
+					<Range>GSM,GPRS,EGPRS</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Frequency stability" enable="yes" index="1">
+			<parms />
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="2" name="GSMFCC NTNV PCS1900 EGPRS" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>PCS1900</Value>
+					<Type>1</Type>
+					<Range>GSM850,GSM900,DCS1800,PCS1900</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>GSM850 Channel</Name>
+					<Value>128,190,251</Value>
+					<Type>2</Type>
+					<Range>128 to 251</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>GSM900 Channel</Name>
+					<Value>975,37,124</Value>
+					<Type>2</Type>
+					<Range>975 to 1023,0 to 124</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DCS1800 Channel</Name>
+					<Value>512,698,885</Value>
+					<Type>2</Type>
+					<Range>512 to 885</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCS1900 Channel</Name>
+					<Value>512,661,810</Value>
+					<Type>2</Type>
+					<Range>512 to 810</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>PCL</Name>
+					<Value>2</Value>
+					<Type>2</Type>
+					<Range>0 to 19</Range>
+					<info>根据Band选择PCL。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>EGPRS</Value>
+					<Type>1</Type>
+					<Range>GSM,GPRS,EGPRS</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Frequency stability" enable="yes" index="1">
+			<parms />
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="3" name="WCDMAFCC NTNV Band 2" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>Band II</Value>
+					<Type>1</Type>
+					<Range>Band II,Band IV,Band V</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>Band II Channel</Name>
+					<Value>9262,9400,9538</Value>
+					<Type>2</Type>
+					<Range>9262 to 9538</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>Band IV Channel</Name>
+					<Value>1312,1413,1513</Value>
+					<Type>2</Type>
+					<Range>1312 to 1513</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>Band V Channel</Name>
+					<Value>4132,4183,4233</Value>
+					<Type>2</Type>
+					<Range>4132 to 4233</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>WCDMA</Value>
+					<Type>1</Type>
+					<Range>WCDMA,HSDPA,HSUPA</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Frequency stability" enable="yes" index="1">
+			<parms />
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="4" name="WCDMAFCC NTNV Band 4" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>Band IV</Value>
+					<Type>1</Type>
+					<Range>Band II,Band IV,Band V</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>Band II Channel</Name>
+					<Value>9262,9400,9538</Value>
+					<Type>2</Type>
+					<Range>9262 to 9538</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>Band IV Channel</Name>
+					<Value>1312,1413,1513</Value>
+					<Type>2</Type>
+					<Range>1312 to 1513</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>Band V Channel</Name>
+					<Value>4132,4183,4233</Value>
+					<Type>2</Type>
+					<Range>4132 to 4233</Range>
+					<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+				<Parm>
+					<Name>Mode</Name>
+					<Value>WCDMA</Value>
+					<Type>1</Type>
+					<Range>WCDMA,HSDPA,HSUPA</Range>
+					<info>选择模式。</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Frequency stability" enable="yes" index="1">
+			<parms />
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="5" name="LTEFCC NTNV Band2 10MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>10MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Frequency stability" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB</Value>
+					<Type>1</Type>
+					<Range>1RB</Range>
+					<info>RB count，Default value:1RB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK</Value>
+					<Type>1</Type>
+					<Range>QPSK</Range>
+					<info>modulation type，Default value:QPSK</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="6" name="LTEFCC NTNV Band4 10MHz" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 4</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>10MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Frequency stability" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB</Value>
+					<Type>1</Type>
+					<Range>1RB</Range>
+					<info>RB count，Default value:1RB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK</Value>
+					<Type>1</Type>
+					<Range>QPSK</Range>
+					<info>modulation type，Default value:QPSK</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+</seq>

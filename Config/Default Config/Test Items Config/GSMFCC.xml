@@ -1,0 +1,115 @@
+<xml>
+	<TestItems>
+			<item  Name="Init seting" index="0">
+				<parms>
+					<Parm>
+						<Name>Band</Name>
+						<Value>GSM850</Value>
+						<Type>1</Type>
+						<Range>GSM850,GSM900,DCS1800,PCS1900</Range>
+						<info>选择Band。</info>
+					</Parm>	
+					<Parm>
+						<Name>GSM850 Channel</Name>
+						<Value>128,190,251</Value>
+						<Type>2</Type>
+						<Range>128 to 251</Range>
+						<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+					</Parm>
+					<Parm>
+						<Name>GSM900 Channel</Name>
+						<Value>975,37,124</Value>
+						<Type>2</Type>
+						<Range>975 to 1023,0 to 124</Range>
+						<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+					</Parm>
+					<Parm>
+						<Name>DCS1800 Channel</Name>
+						<Value>512,698,885</Value>
+						<Type>2</Type>
+						<Range>512 to 885</Range>
+						<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+					</Parm>
+					<Parm>
+						<Name>PCS1900 Channel</Name>
+						<Value>512,661,810</Value>
+						<Type>2</Type>
+						<Range>512 to 810</Range>
+						<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+					</Parm>
+					<Parm>
+						<Name>PCL</Name>
+						<Value>5</Value>
+						<Type>2</Type>
+						<Range>0 to 19</Range>
+						<info>根据Band选择PCL。可用格式：a,b,c   a-b   a-b;c</info>
+					</Parm>
+					<Parm>
+						<Name>DL Ref Level</Name>
+						<Value>-85</Value>
+						<Type>2</Type>
+						<Range>-136 to -6</Range>
+						<info>BS DL Reference Level</info>
+					</Parm>
+					<Parm>
+						<Name>Mode</Name>
+						<Value>GSM</Value>
+						<Type>1</Type>
+						<Range>GSM,GPRS,EGPRS</Range>
+						<info>选择模式。</info>
+					</Parm>	
+				</parms>
+				<limits>
+				</limits>
+			</item>	
+			<item  Name="Conducted output power" index="1">
+				<parms>
+					<Parm>
+						<Name>Antenna Gain</Name>
+						<Value>0</Value>
+						<Type>2</Type>
+						<Range>-20 to 20</Range>
+						<info>天线增益，用于计算ERP/EIRP</info>
+					</Parm>
+				</parms>
+				<limits>
+				</limits>
+			</item>	
+			<item  Name="Peak-to-Average Ratio" index="2">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>			
+			<item  Name="99% Occupied Bandwidth" index="3">
+				<parms>			
+				</parms>
+				<limits>
+				</limits>
+			</item>
+			<item  Name="26dB Occupied Bandwidth" index="4">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>	 
+			<item  Name="Band edge" index="5">
+				<parms>	
+				</parms>
+				<limits>	
+				</limits>
+			</item>	
+			<item  Name="Conducted Spurious emissions" index="6">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>	
+			<item  Name="Frequency stability" index="7">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>
+	</TestItems>
+</xml>

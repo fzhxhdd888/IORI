@@ -1,0 +1,277 @@
+<xml>
+<TestItems>
+        <item  Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Antenna</Name>
+					<Value>0</Value>
+					<Type>1</Type>
+					<Range>0,1,01</Range>
+					<info></info>
+				</Parm>
+				<Parm>
+					<Name>Data rate</Name>
+					<Value>MCS7</Value>
+					<Type>1</Type>
+					<Range>MCS0,MCS1,MCS2,MCS3,MCS4,MCS5,MCS6,MCS7</Range>
+					<info>^MCS0:NG(6.5M)SG(7.2);^MCS1:NG(13M)SG(14.4);^MCS2:NG(19.5M)SG(21.7);^MCS2:NG(19.5M)SG(21.7M)^MCS3:NG(26M)SG(28.9)^MCS4:NG(39M)SG(43.3M)^MCS5:NG(52M)SG(57.8M)^MCS6:NG(58.5M)SG(65M)^MCS7:NG(65M)SG(72.2M)^上面是HT20的速率，HT40是HT20的一倍。</info>
+				</Parm>
+				<Parm>
+					<Name>Band</Name>
+					<Value>2.4</Value>
+					<Type>1</Type>
+					<Range>5,2.4</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>Channel Bonding</Name>
+					<Value>HT20</Value>	
+					<Type>1</Type>
+					<Range>HT20,HT40</Range>
+					<info />
+				</Parm>
+				<Parm>
+					<Name>2.4G HT20 Channel</Name>
+					<Value>1,7,13</Value>
+					<Type>13</Type>
+					<Range>1 to 13</Range>
+					<info>2.4G HT20下才生效。</info>
+				</Parm>
+				<Parm>
+					<Name>2.4G HT40 Channel</Name>
+					<Value>3,7,11</Value>
+					<Type>13</Type>
+					<Range>3 to 11</Range>
+					<info>2.4G HT40下才生效。</info>
+				</Parm>
+				<Parm>
+					<Name>5G HT20 Channel</Name>
+					<Value>36,112,165</Value>
+					<Type>13</Type>
+					<Range>36,40,44,48,52,56,60,64,100,104,108,112,116,120,124,128,132,136,140,149,153,157,161,165</Range>
+					<info>5G HT20下才生效。</info>
+				</Parm>
+				<Parm>
+					<Name>5G HT40 Channel</Name>
+					<Value>38,110,163</Value>
+					<Type>13</Type>
+					<Range>38,42,46,50,54,58,62,102,106,110,114,118,122,126,130,134,138,142,151,155,159,163</Range>
+					<info>5G HT40下才生效。</info>
+				</Parm>
+				<Parm>
+					<Name>Is 6M Enable</Name>
+					<Value>disable</Value>
+					<Type>1</Type>
+					<Range>enable锛宒isable</Range>
+					<info>N妯″紡杩炴帴涓嶄笂鏃秂nable灏濊瘯</info>
+				</Parm>
+			</parms>
+			<limits>
+			</limits>
+        </item>	
+		<item  Name="20.3.22.2_Adjacent channel rejection" index="9">
+			<parms>	
+               
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>当测试模式选择Search时才起作用。</info>
+				</Parm>		
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>当测试模式选择Search时才起作用，设置当前搜索起始值为上一信道的结果。</info>
+				</Parm>	
+	            <Parm>
+					<Name>2.4G HT20 adjacent channel offset(MHz)</Name>
+					<Value>25</Value>
+					<Type>10</Type>
+					<Range>25 to 50</Range>
+					<info>只有2.4G HT20条件起作用，设置干扰信号与载波的频偏值。（默认为25）</info>
+				</Parm>	
+	            <Parm>
+					<Name>5G HT20 adjacent channel offset(MHz)</Name>
+					<Value>20</Value>
+					<Type>10</Type>
+					<Range>25 to 50</Range>
+					<info>只有5G HT20条件起作用，设置干扰信号与载波的频偏值。（默认为20）</info>
+				</Parm>	
+	            <Parm>
+					<Name>HT40 adjacent channel offset(MHz)</Name>
+					<Value>40</Value>
+					<Type>10</Type>
+					<Range>25 to 50</Range>
+					<info>只有HT40条件起作用，设置干扰信号与载波的频偏值。（默认为40）</info>
+				</Parm>	
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>					
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>					
+					<low>13</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>					
+					<low>11</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>					
+					<low>8</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>					
+					<low>4</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>					
+					<low>0</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>					
+					<low>-1</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>					
+					<low>-2</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+			</limits>
+        </item>	
+		<item  Name="20.3.22.3_Nonadjacent channel rejection" index="10">
+			<parms>	
+				<Parm>
+					<Name>Search Step</Name>
+					<Value>0.5</Value>
+					<Type>12</Type>
+					<Range>0 to 20</Range>
+					<info>当测试模式选择Search时才起作用。</info>
+				</Parm>	
+				<Parm>
+					<Name>Use Previouse Result</Name>
+					<Value>YES</Value>
+					<Type>1</Type>
+					<Range>YES,NO</Range>
+					<info>当测试模式选择Search时才起作用，设置当前搜索起始值为上一信道的结果。</info>
+				</Parm>	
+	            <Parm>
+					<Name>5G HT20 Nonadjacent channel offset(MHz)</Name>
+					<Value>40</Value>
+					<Type>10</Type>
+					<Range>35 to 100</Range>
+					<info>5G HT20起作用，设置干扰信号与载波的频偏值。（默认为40）</info>
+				</Parm>	 	
+	            <Parm>
+					<Name>5G HT40 Nonadjacent channel offset(MHz)</Name>
+					<Value>80</Value>
+					<Type>10</Type>
+					<Range>35 to 100</Range>
+					<info>5G HT40起作用，设置干扰信号与载波的频偏值。（默认为80）</info>
+				</Parm>	 
+			</parms>
+			<limits>
+				<limit>
+					<Name>PER 10% MCS0 (dB)</Name>
+					<low>32</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS1 (dB)</Name>					
+					<low>29</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS2 (dB)</Name>					
+					<low>27</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS3 (dB)</Name>					
+					<low>24</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS4 (dB)</Name>					
+					<low>20</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS5 (dB)</Name>					
+					<low>16</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS6 (dB)</Name>				
+					<low>15</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+				<limit>
+					<Name>PER 10% MCS7 (dB)</Name>					
+					<low>14</low>
+					<high>None</high>
+					<Type>12</Type>
+					<Range></Range>
+					<info />				
+				</limit>
+			</limits>
+        </item>
+</TestItems>
+</xml>

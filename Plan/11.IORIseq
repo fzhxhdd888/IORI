@@ -1,0 +1,440 @@
+<seq>
+	<items condition="NTNV" enable="yes" index="0" name="LTEFCC NTNV band2 1.4M" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>1.4MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Peak-to-Average Ratio" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/FRB,1RB,FRB</Range>
+					<info>RB count，Default value:1RB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="1" name="LTEFCC NTNV band2 3M" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>3MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Peak-to-Average Ratio" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/FRB,1RB,FRB</Range>
+					<info>RB count，Default value:1RB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="2" name="LTEFCC NTNV band2 5M" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>5MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Peak-to-Average Ratio" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/FRB,1RB,FRB</Range>
+					<info>RB count，Default value:1RB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="3" name="LTEFCC NTNV band2 10M" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>10MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Peak-to-Average Ratio" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/FRB,1RB,FRB</Range>
+					<info>RB count，Default value:1RB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="4" name="LTEFCC NTNV band2 15M" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>15MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Peak-to-Average Ratio" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/FRB,1RB,FRB</Range>
+					<info>RB count，Default value:1RB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+	<items condition="NTNV" enable="yes" index="5" name="LTEFCC NTNV band2 20M" tempstabtime="10">
+		<item Name="Init seting" index="0">
+			<parms>
+				<Parm>
+					<Name>Band</Name>
+					<Value>FDD-LTE 2</Value>
+					<Type>1</Type>
+					<Range>FDD-LTE 2,FDD-LTE 4,FDD-LTE 5,FDD-LTE 7,FDD-LTE 12,FDD-LTE 17,FDD-LTE 25,FDD-LTE 26,TDD-LTE 38,TDD-LTE 41</Range>
+					<info>选择Band。</info>
+				</Parm>
+				<Parm>
+					<Name>BandWidth</Name>
+					<Value>20MHz</Value>
+					<Type>1</Type>
+					<Range>1.4MHz,3MHz,5MHz,10MHz,15MHz,20MHz</Range>
+					<info>选择BandWidth。</info>
+				</Parm>
+				<Parm>
+					<Name>DL Ref Level</Name>
+					<Value>-85</Value>
+					<Type>2</Type>
+					<Range>-136 to -6</Range>
+					<info>BS DL Reference Level</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Conducted output power" enable="yes" index="1">
+			<parms>
+				<Parm>
+					<Name>Antenna Gain</Name>
+					<Value>0</Value>
+					<Type>2</Type>
+					<Range>-20 to 20</Range>
+					<info>天线增益，用于计算ERP/EIRP</info>
+				</Parm>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/PRB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/PRB/FRB,1RB,PRB,FRB</Range>
+					<info>RB count，Default value:1/PRB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+		<item Name="Peak-to-Average Ratio" enable="yes" index="2">
+			<parms>
+				<Parm>
+					<Name>RB</Name>
+					<Value>1RB/FRB</Value>
+					<Type>1</Type>
+					<Range>1RB/FRB,1RB,FRB</Range>
+					<info>RB count，Default value:1RB/FRB</info>
+				</Parm>
+				<Parm>
+					<Name>Modulation</Name>
+					<Value>QPSK/16-QAM</Value>
+					<Type>1</Type>
+					<Range>QPSK/16-QAM,QPSK,16-QAM</Range>
+					<info>modulation type，Default value:QPSK/16-QAM</info>
+				</Parm>
+			</parms>
+			<limits />
+		</item>
+	</items>
+</seq>

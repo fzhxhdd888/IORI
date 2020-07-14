@@ -1,0 +1,101 @@
+<xml>
+	<TestItems>
+			<item  Name="Init seting" index="0">
+				<parms>
+					<Parm>
+						<Name>Band</Name>
+						<Value>Band II</Value>
+						<Type>1</Type>
+						<Range>Band II,Band IV,Band V</Range>
+						<info>选择Band。</info>
+					</Parm>	
+					<Parm>
+						<Name>Band II Channel</Name>
+						<Value>9262,9400,9538</Value>
+						<Type>2</Type>
+						<Range>9262 to 9538</Range>
+						<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+					</Parm>
+					<Parm>
+						<Name>Band IV Channel</Name>
+						<Value>1312,1413,1513</Value>
+						<Type>2</Type>
+						<Range>1312 to 1513</Range>
+						<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+					</Parm>
+					<Parm>
+						<Name>Band V Channel</Name>
+						<Value>4132,4183,4233</Value>
+						<Type>2</Type>
+						<Range>4132 to 4233</Range>
+						<info>选择Channel。可用格式：a,b,c   a-b   a-b;c</info>
+					</Parm>
+					<Parm>
+						<Name>DL Ref Level</Name>
+						<Value>-85</Value>
+						<Type>2</Type>
+						<Range>-136 to -6</Range>
+						<info>BS DL Reference Level</info>
+					</Parm>
+					<Parm>
+						<Name>Mode</Name>
+						<Value>WCDMA</Value>
+						<Type>1</Type>
+						<Range>WCDMA,HSDPA,HSUPA</Range>
+						<info>选择模式。</info>
+					</Parm>	
+				</parms>
+				<limits>
+				</limits>
+			</item>	
+			<item  Name="Conducted output power" index="1">
+				<parms>
+					<Parm>
+						<Name>Antenna Gain</Name>
+						<Value>0</Value>
+						<Type>2</Type>
+						<Range>-20 to 20</Range>
+						<info>天线增益，用于计算ERP/EIRP</info>
+					</Parm>
+				</parms>
+				<limits>
+				</limits>
+			</item>	
+			<item  Name="Peak-to-Average Ratio" index="2">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>			
+			<item  Name="99% Occupied Bandwidth" index="3">
+				<parms>			
+				</parms>
+				<limits>
+				</limits>
+			</item>
+			<item  Name="26dB Occupied Bandwidth" index="4">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>	 
+			<item  Name="Band edge" index="5">
+				<parms>	
+				</parms>
+				<limits>	
+				</limits>
+			</item>	
+			<item  Name="Conducted Spurious emissions" index="6">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>	
+			<item  Name="Frequency stability" index="7">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>
+	</TestItems>
+</xml>

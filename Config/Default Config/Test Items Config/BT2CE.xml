@@ -1,0 +1,57 @@
+<xml>
+	<TestItems>
+			<item  Name="Init seting" index="0">
+				<parms>
+					<Parm>
+						<Name>Channel</Name>
+						<Value>0,39,78</Value>
+						<Type>13</Type>
+						<Range>0 to 78</Range>
+						<info />
+					</Parm>
+				</parms>
+				<limits>
+				</limits>
+			</item>	
+			<item  Name="Hopping Channel Separation" index="1">
+				<parms>	
+				</parms>
+				<limits>
+					<limit>
+							<Name>Limit</Name>					
+							<low>100</low>
+							<high>None</high>
+							<Type>12</Type>
+							<Range></Range>
+							<info />				
+					</limit>
+				</limits>
+			</item>
+			<item  Name="Occupied Channel Bandwidth" index="2">
+				<parms>	
+				</parms>
+				<limits>
+					<limit>
+							<Name>Limit</Name>					
+							<low>None</low>
+							<high>None</high>
+							<Type>12</Type>
+							<Range></Range>
+							<info />				
+					</limit>
+				</limits>
+			</item>
+			<item  Name="Transmitter unwanted emissions in the out of band domain" index="3">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>
+			<item  Name="Transmitter unwanted emissions in the spurious domain" index="4">
+				<parms>	
+				</parms>
+				<limits>
+				</limits>
+			</item>
+	</TestItems>
+</xml>
